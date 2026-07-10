@@ -117,7 +117,7 @@ function App() {
 
   <img src="/mylogo.jpg" alt="Ruba Logo" className="hero-image" />
 
-  <h1>Ruba B</h1>
+  <h1>Ruba B<Blockquote></Blockquote></h1>
 
   <h2>Web Developer | Cloud Learner</h2>
 
@@ -126,11 +126,9 @@ function App() {
     and impactful solutions through code.
   </p>
 
-  <div className="hero-buttons">
-    <a href="/resume.pdf" download>
-      <button>📄 Download Resume</button>
-    </a>
-  </div>
+  <a href="/resume.pdf" download="Ruba_B_Resume.pdf">
+  <button>📄 Download Resume</button>
+</a>
 
 </div>
 
