@@ -1,3 +1,7 @@
+<h1 style={{color:"red"}}>
+Portfolio Loaded
+</h1>
+
 import { useState } from "react";
 import "./App.css";
 
@@ -7,7 +11,7 @@ function App() {
   {
     title: "AI For Everyone",
     issuer: "DeepLearning.AI - Coursera      (2025)",
-    image: "/certificates/Ai for everyone1.jpg",
+    image: "/certificates/Ai-for-everyone1.jpg",
   },
   {
     title: "Python ",
@@ -111,27 +115,30 @@ function App() {
 </ul>
       </nav>
 
-    
-         {/* Home */}
-         <div className="hero-left">
+{/* Home */}
+<section id="Home" className="Hero">
 
-  <img src="/mylogo.jpg" alt="Ruba Logo" className="hero-image" />
+  <div className="hero-left">
 
-  <h1>Ruba B<Blockquote></Blockquote></h1>
+    <img src="/mylogo.jpg" alt="Ruba Logo" className="hero-image" />
 
-  <h2>Web Developer | Cloud Learner</h2>
+    <h1>Ruba B</h1>
 
-  <p className="hero-desc">
-    A Computer Science student passionate about building innovative
-    and impactful solutions through code.
-  </p>
+    <h2>Web Developer | Cloud Learner</h2>
 
-  <a href="/resume.pdf" download="Ruba_B_Resume.pdf">
-  <button>📄 Download Resume</button>
-</a>
+    <p className="hero-desc">
+      A Computer Science student passionate about building innovative
+      and impactful solutions through code.
+    </p>
 
-</div>
+    <a href="/resume.pdf" download="Ruba_B_Resume.pdf">
+      <button>📄 Download Resume</button>
+    </a>
 
+  </div>
+
+</section>
+         
       {/* Technical Skills */}
 <section id="skills" className="skills">
 

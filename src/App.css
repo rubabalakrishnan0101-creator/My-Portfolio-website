@@ -1,3 +1,12 @@
+body {
+  background: black !important;
+  color: white !important;
+}
+
+#root {
+  min-height: 100vh;
+  background: black !important;
+}
 /* ==========================
    GLOBAL
 ========================== */
@@ -164,12 +173,7 @@ section::before {
 
 .hero-buttons button:hover {
   transform: translateY(-3px);
-  background: #eeeeee;
-}
-
-/* ==========================
-   ABOUT
-========================== */
+  background: #eeeeee;}
 
 /* HOME */
 
@@ -645,6 +649,7 @@ section::before {
   object-fit: cover;
   
 }
+
 /* ==========================
    PAPER PRESENTATIONS
 ========================== */
