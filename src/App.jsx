@@ -122,7 +122,7 @@ function App() {
 
     <img src="/mylogo.jpg" alt="Ruba Logo" className="hero-image" />
 
-    <h1>Ruba B</h1>
+    <h1>Ruba Balakrishnan</h1>
 
     <h2>Web Developer | Cloud Learner</h2>
 
@@ -231,6 +231,7 @@ function App() {
         <h2>💼 Internship</h2>
 
         <div className="internship-card">
+
 
           <h3>Web Developer Internship</h3>
 
@@ -419,7 +420,7 @@ function App() {
   </div>
 
   <footer className="footer">
-    © 2026 Ruba B | All Rights Reserved
+    © 2026 Ruba Balakrishnan| All Rights Reserved
   </footer>
 </section>
     </>
