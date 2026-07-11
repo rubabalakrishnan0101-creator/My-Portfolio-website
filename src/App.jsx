@@ -122,7 +122,7 @@ function App() {
 
     <img src="/mylogo.jpg" alt="Ruba Logo" className="hero-image" />
 
-      <h1>Ruba Balakrishnan</h1>
+      <h2>Ruba Balakrishnan</h2>
 
     <h2>Web Developer | Cloud Learner</h2>
 
