@@ -240,12 +240,15 @@ function App() {
 
           <p><strong>Duration:</strong> 20 Days</p>
 
-          <button
-            className="view-btn"
-            onClick={() => setShowCertificate(true)}
-          >
-            📄 View Certificate
-          </button>
+          <a 
+  href="/internship.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <button className="view-btn">
+    📄 View Internship Certificate
+  </button>
+</a>
 
         </div>
 
